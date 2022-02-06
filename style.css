@@ -18,33 +18,59 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  padding-top: 25vh;
+  padding-top: 10vh;
 }
+
 .element {
   font-family: "Supermercado One", cursive;
-  text-decoration: none;
   justify-content: space-between;
   display: flex;
   flex-flow: row nowrap;
   font-size: xx-large;
   flex-direction: row;
-  background-color: rgb(255, 238, 0);
+  background-color: rgb(44, 38, 36);
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  color: rgb(0, 0, 0);
 }
+
+a {
+  text-decoration: none;
+  color: rgb(235, 161, 161);
+  padding: 5px;
+}
+
 .element:hover {
+  transform: scale(1.01);
+  transition: 450ms;
   box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
-.btn{
+.btn {
   display: inline;
   margin-right: 0px;
 }
-.btn:hover{
-  transform: scale(1.4);
+button {
+  border-radius: 10px;
+}
+button:hover {
   background-color: black;
-  border-radius: 5px;
-  color: rgb(168, 240, 0);
+  color: greenyellow;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: black;
+  color: greenyellow;
+}
+
+.head {
+  align-items: center;
+  font-family: "Supermercado One", cursive;
+  font-size: x-large;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 10vh;
+}
+h1 {
+  text-align: center;
 }
