@@ -5,11 +5,26 @@
 }
 
 .main {
-  background-image: url(https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1191&q=80);
+  background-image: url(https://images.unsplash.com/photo-1630333240078-400d0faf5d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
   background-size: cover;
   background-attachment: unset;
-  opacity: 0.85;
+  opacity: 1;
   height: 100vh;
+  background-position-y: 50%;
+
+}
+
+.logo{
+  margin: 10px;
+  width: 10vh;
+}
+.github{
+  border-radius: 25px;
+}
+.logo:hover{
+  transform: scale(1.1);
+  transition: 450ms;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 .part {
@@ -18,7 +33,7 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 
 .element {
@@ -28,7 +43,7 @@
   flex-flow: row nowrap;
   font-size: xx-large;
   flex-direction: row;
-  background-color: rgb(0, 0, 0);
+  background-color: #141414;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -36,7 +51,7 @@
 
 a {
   text-decoration: none;
-  color: rgb(75, 75, 75);
+  color: rgb(108, 109, 108);
   padding: 5px;
 }
 
@@ -49,13 +64,14 @@ a {
 .btn {
   display: inline;
   margin-right: 0px;
+  height: 100%;
 }
 button {
   border-radius: 10px;
 }
 button:hover {
   background-color: black;
-  color: greenyellow;
+  color: #66cc66;
   border-radius: 10px;
 }
 .btn:hover {
@@ -69,7 +85,11 @@ button:hover {
   font-size: x-large;
   justify-content: center;
   align-content: center;
-  padding-bottom: 10vh;
+  margin-bottom: 5vh;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(153, 153, 153, 0.4);
+  border-radius: 20px;
 }
 h1 {
   text-align: center;
