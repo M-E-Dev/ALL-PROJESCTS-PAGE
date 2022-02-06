@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-image: url(https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1191&q=80);
+  background-size: cover;
+  background-attachment: unset;
+  opacity: 0.85;
+  height: 100vh;
+}
+
+.part {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25vh;
+}
+.element {
+  font-family: "Supermercado One", cursive;
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: xx-large;
+  flex-direction: row;
+  background-color: rgb(255, 238, 0);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+}
+.element:hover {
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.btn{
+  display: inline;
+  margin-right: 0px;
+}
+.btn:hover{
+  transform: scale(1.4);
+  background-color: black;
+  border-radius: 5px;
+  color: rgb(168, 240, 0);
+}
