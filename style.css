@@ -6,11 +6,14 @@
 
 .main{
     display: grid;
-    grid-template-columns: 2fr 2.5fr 0.1fr 1.5fr 2fr;
+    grid-template-columns: 2fr 2.5fr 0.3fr 2fr 2fr;
     grid-template-rows: 0.2fr 2fr 0.2fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background-color: #292929;
+    background-image: url(https://media.gettyimages.com/photos/mysterious-light-sphere-hovering-over-martian-landscape-picture-id512407584?s=2048x2048);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 .mainpart {
@@ -19,7 +22,8 @@
   background-size: cover;
   background-attachment: unset;
   opacity: 1;
-  width: 80%;
+  width: 90%;
+  min-width: 500px;
 }
 .profil{
   grid-column: 4 / 5;
@@ -32,6 +36,7 @@
   background-image: url(./profil.jpeg);
   transition: 150ms;
   border-radius: 10px;
+  min-width: 200px;
   
 }
 /* .profil:hover{
@@ -72,7 +77,9 @@
   transition: 150ms;
   font-family: "Supermercado One", cursive;
   justify-content: space-between;
-  background-image: url(./proje5.jpg);
+  /* background-image: url(./proje5.jpg); */
+  background-color: rgba(0, 0, 0, 0.5);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 70%;
@@ -91,7 +98,7 @@
   flex-flow: row nowrap;
   font-size: xx-large;
   flex-direction: row;
-  background-image: url(./proje5.jpg);
+  background-color: rgba(0, 0, 0, 0.6);
   background-repeat: no-repeat;
   background-size: 400%;
   background-position-x: 60%;
@@ -107,12 +114,12 @@
   transform: scale(1.01);
   transition: 450ms;
   box-shadow: rgba(0, 0, 0, 0.6) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-color: #292929;
+  background-color: #1f1f1f;
 }
 
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(100, 100, 100);
   padding: 5px;
 }
 
@@ -143,8 +150,9 @@ button:hover {
   align-content: center;
   margin-bottom: 5vh;
   padding: 10px;
-  color: rgb(0, 0, 0);
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(174, 19, 14,0.1) 0%, rgba(71, 16, 12,1) 90% );
+  color: rgb(100, 100, 100);
+  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(174, 19, 14,0.1) 0%, rgba(71, 16, 12,1) 90% ); */
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 20px;
 }
 h1 {
