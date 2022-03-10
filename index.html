@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>All My Works</title>
 </head>
 
@@ -21,12 +21,17 @@
         <div class="mainpart">
             <ul>
                 <div class="head">
-                    <h1 >Muhammed Eroglu</h1>
-                    <h1 >&#x2B50;Jr Frontend Dev&#x2B50;</h1>
+                    <h1>Muhammed Eroglu</h1>
+                    <h1>&#x2B50;Jr Frontend Dev&#x2B50;</h1>
                 </div>
-                <li class="element1"><a href="https://www.linkedin.com/in/muhammed-eroglu-dev/" target="_blank"><img class="logo minires1" src="https://www.freepnglogos.com/uploads/linkedin-logo-design-30.png" alt=""></a>
-                    <a href="https://github.com/M-E-Dev" target="_blank"><img class="logo github minires" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt=""></a>
-                    <a href="#"><img class="logo minires" src="http://pngimg.com/uploads/cv/cv_PNG10.png" alt=""></a></button></li>
+                <li class="element1"><a href="https://www.linkedin.com/in/muhammed-eroglu-dev/" target="_blank"><img
+                            class="logo minires1" src="https://www.freepnglogos.com/uploads/linkedin-logo-design-30.png"
+                            alt=""></a>
+                    <a href="https://github.com/M-E-Dev" target="_blank"><img class="logo github minires"
+                            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt=""></a>
+                    <a href="#"><img class="logo minires" src="http://pngimg.com/uploads/cv/cv_PNG10.png"
+                            alt=""></a></button>
+                </li>
 
                 <li class="element"><a href="https://m-e-dev.github.io/JS-to-do-list/" target="_blank">To-Do
                         List / Clock</a><button><a class="btn" href="https://github.com/M-E-Dev/JS-to-do-list"
@@ -42,10 +47,22 @@
                             target="_blank">Code</a></button></li>
 
             </ul>
+            <li class="song">
+                <span class="audiologo">&#x1F3B8;</span>
+                <audio id="song" src="/GuthrieGovan-Ancestral.mp3" controls>
+                    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+                </audio>
+                <span class="audiologo">&#x1F3B8;</span>
+                </button>
+            </li>
         </div>
         <div class="profil"></div>
-        
+
     </div>
+    <script>
+        let audio = document.getElementById("song")
+        audio.volume = 0.02
+    </script>
 </body>
 
 </html>
