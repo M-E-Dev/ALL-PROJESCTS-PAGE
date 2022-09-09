@@ -204,6 +204,11 @@ span.react{
   color: rgb(97, 219, 251);
 }
 
+@media screen and (max-width: 600px) {
+.js, #song, .audiologo{
+  display: none;
+}
+}
 @media screen and (max-width: 992px) {
   .main{
     padding-top: 30px;
