@@ -55,13 +55,54 @@
   grid-row: 2 ;
   transition: 150ms;
   font-family: "Supermercado One", cursive;
-  justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.5);
-  background-position-x: 70%;
+  display: block;
+  border-radius: 10px;
+  /* align-items: center; */
+  justify-content: center;
+  /* justify-content: space-between; */
+  padding-top: 10px;
+}
+
+.cv {
+  transition: 150ms;
+  font-family: "Supermercado One", cursive;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   border-radius: 10px;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-inline: 10px;
+}
+.personal {
+  transition: 150ms;
+  font-family: "Supermercado One", cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  border-radius: 10px;
+  /* align-items: center; */
+  justify-content: center;
+  /* justify-content: space-between; */
+  margin-bottom: 10px;
+  margin-inline: 10px;
+}
+
+
+.logo{
+  display:flex;
+  width: 5vh;
+  opacity: 0.8;
+  transition: 150ms;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  display: inline-block;
+  padding-inline: 20px;
 }
 
 .profile{
@@ -97,13 +138,6 @@
 }
 
 
-
-.logo{
-  margin: 10px;
-  width: 10vh;
-  opacity: 0.8;
-  transition: 150ms;
-}
 .github{
   border-radius: 25px;
 }
@@ -126,8 +160,6 @@
   justify-content: center;
   padding-top: 5vh;
 }
-
-
 
 .element {
   transition: 150ms;
@@ -153,13 +185,6 @@
   background-color: #1f1f1f;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(185, 185, 185);
-  padding: 5px;
-  display: block;
-}
-
 
 .btn {
   display: inline;
@@ -180,6 +205,11 @@ button:hover {
 }
 
 
+h3 {
+  text-align: center;
+  color: beige;
+  padding: 5px;
+}
 h1 {
   text-align: center;
 }
