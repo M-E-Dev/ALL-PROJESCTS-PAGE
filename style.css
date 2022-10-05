@@ -364,3 +364,16 @@ span.react{
   justify-content: center;
 }
 }
+.gif {
+  display: none;
+  position:absolute;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 110vh;
+  /* -webkit-transition: max-height 1s ease;
+  -moz-transition: max-height 1s ease;
+  -o-transition: max-height 1s ease;
+  transition: max-height 1s ease;
+  font:12px Tahoma; */
+  }
+  .typescript:hover + .gif { display:flex}
