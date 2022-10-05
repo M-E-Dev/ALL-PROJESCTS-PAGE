@@ -365,15 +365,15 @@ span.react{
 }
 }
 .gif {
-  display: none;
-  position:absolute;
+  visibility: hidden;
+  position:fixed;
   overflow: hidden;
   border-radius: 10px;
+  top: 100%;
+  left: 0;
   width: 110vh;
-  /* -webkit-transition: max-height 1s ease;
-  -moz-transition: max-height 1s ease;
-  -o-transition: max-height 1s ease;
-  transition: max-height 1s ease;
-  font:12px Tahoma; */
+  font:12px Tahoma;
   }
-  .typescript:hover + .gif { display:flex}
+  .typescript:hover  .gif {
+    visibility: visible; 
+  }
