@@ -1,43 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital@1&family=Baloo+Bhai+2&family=Cherry+Swash&family=El+Messiri&family=Grand+Hotel&family=Grenze+Gotisch:wght@300&family=Luxurious+Roman&family=M+PLUS+2&family=Medula+One&family=Oldenburg&family=Ranga&family=Sacramento&family=Send+Flowers&family=UnifrakturCook&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* font-family: 'Alumni Sans', sans-serif; */
+font-family: 'El Messiri', sans-serif !important;
+/* font-family: 'Grenze Gotisch', cursive; */
+/* font-family: 'Luxurious Roman', cursive; */
+/* font-family: 'M PLUS 2', sans-serif; */
+/* font-family: 'Medula One', cursive; */
+/* font-family: 'Oldenburg', cursive; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Send Flowers', cursive; */
+/* font-family: 'UnifrakturCook', cursive; */
+}
+
+span{
+  color: white;
+}
+.personal-info a:hover{
+  transform: scale(1.2);
+  transition: 500ms;
+}
+
+.personal-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main{
-    display: grid;
-    grid-template-columns: 0.5fr 4fr 0.3fr 6fr 0.5fr;
-    grid-template-rows: 0.1fr 2fr 0.1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* display: grid;
+    grid-template-columns: 2% 35% 2% 59% 2%;
+    grid-template-rows: 2fr;
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-image: url(./proje1.jpg);
-    background-color: rgba(255, 255, 255, 0.1);
+    grid-row-gap: 0px; */
+    background-image: url("./wood-1700562.jpg");
+    /* background-color: rgba(255, 255, 255, 0.1); */
   background-blend-mode: overlay;
     background-position: 50%;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     height: 100vh;
     padding: 20px;
 }
-
+.react-icon{
+  height: 40px;
+  display: inline !important;
+}
+ li a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
 .info {
   grid-column: 2 / 3;
-  grid-row: 2 ;
+  grid-row: 1 ;
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 1fr 2fr;
-  column-gap: 10px;
-  row-gap: 20px;
-  background-size: cover;
-  background-attachment: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   opacity: 1;
   width: 90%;
   min-width: 500px;
 }
 
 .name {
-  grid-column: 1 / 3;
-  grid-row: 1 ;
   align-items: center;
       font-family: 'Cinzel Decorative', cursive;
   font-size: x-large;
@@ -49,8 +86,12 @@
   /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(174, 19, 14,0.1) 0%, rgba(71, 16, 12,1) 90% ); */
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 20px;
+  max-width: 35%;
+  max-height: 80%;
 }
-
+.react, .js {
+  margin: 10px;
+}
 .links {
   grid-column: 2 / 3;
   grid-row: 2 ;
@@ -83,6 +124,7 @@
       font-family: 'Cinzel Decorative', cursive;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
+  flex-direction: row;
   border-radius: 10px;
   /* align-items: center; */
   justify-content: center;
@@ -108,6 +150,9 @@ a {
   padding-inline: 20px;
   font-size: large;
 }
+li a{
+  text-align: left;
+}
 
 .profile{
   grid-column: 1 / 2;
@@ -128,18 +173,24 @@ a {
 
 .projects{
   grid-column: 4 / 5;
-  grid-row: 2;
-  display: grid;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* display: grid;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr;
-  height: 90%;
-  background-position-y: 0%;
-  background-position-x: 70%;
+  height: 90%; */
+  /* background-position-y: 0%; */
+  /* background-position-x: 70%; */
   background-repeat: no-repeat;
   background-attachment: unset;
-  transition: 150ms;
+  /* transition: 150ms; */
   border-radius: 10px;
-  min-width: 200px;
+  /* min-width: 200px; */
+  max-height: 700px;
 }
 
 
@@ -169,19 +220,21 @@ a {
 .element {
   transition: 150ms;
       font-family: 'Cinzel Decorative', cursive;
-  justify-content: space-between;
-  display: flex;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  flex-direction: row;
   flex-flow: row nowrap;
   font-size: x-large;
-  flex-direction: row;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
   border-radius: 10px;
+  width: 100%;
 }
-.projects{
+/* .projects{
   max-height: ;
-}
+} */
 
 .element:hover {
   transform: scale(1.01);
@@ -239,7 +292,7 @@ span.js{
 
 }
 span.react{
-  color: rgb(97, 219, 251);
+  color: rgb(98, 205, 255);
   font-size: large;
 
 }
@@ -289,6 +342,13 @@ span.react{
     grid-row: 2 ;
     margin: 1px;
     padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    max-height: 80vh;
   }
   .element {
     margin: 1px;
@@ -330,19 +390,21 @@ span.react{
     display: inline-flex;
     justify-content: space-between;
     font-size: medium;
+    text-align: left;
   }
   
   .element {
     transition: 150ms;
         font-family: 'Cinzel Decorative', cursive;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
     display: flex;
     flex-flow: row nowrap;
     font-size: xx-large;
     flex-direction: row;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
     border-radius: 10px;
   }
   .profile{
@@ -370,8 +432,8 @@ span.react{
   overflow: hidden;
   border-radius: 10px;
   top: 100%;
-  left: 0;
-  width: 110vh;
+  left: -50%;
+  width: 100vh;
   font:12px Tahoma;
   }
   .typescript:hover  .gif {
