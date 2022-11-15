@@ -42,7 +42,7 @@ span{
     grid-template-rows: 2fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px; */
-    background-image: url("./wood-1700562.jpg");
+    background-image: url("https://images.pexels.com/photos/957035/bokeh-blur-background-out-of-focus-957035.jpeg");
     /* background-color: rgba(255, 255, 255, 0.1); */
   background-blend-mode: overlay;
     background-position: 50%;
@@ -50,6 +50,7 @@ span{
     background-repeat: no-repeat;
     height: 100vh;
     padding: 20px;
+    min-width: 1200px;
 }
 .react-icon{
   height: 40px;
@@ -84,7 +85,7 @@ span{
   padding: 10px;
   color: rgb(185, 185, 185);
   /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(174, 19, 14,0.1) 0%, rgba(71, 16, 12,1) 90% ); */
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   max-width: 35%;
   max-height: 80%;
@@ -97,7 +98,7 @@ span{
   grid-row: 2 ;
   transition: 150ms;
       font-family: 'Cinzel Decorative', cursive;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   display: block;
   border-radius: 10px;
   /* align-items: center; */
@@ -226,7 +227,7 @@ li a{
   flex-direction: row;
   flex-flow: row nowrap;
   font-size: x-large;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
@@ -302,130 +303,7 @@ span.react{
   padding: 5px;
 }
 
-@media screen and (max-width: 600px) {
-.js, #song, .audiologo{
-  display: none;
-}
-}
-@media screen and (max-width: 992px) {
-  .song, #song, .audiologo{
-    display: none;
-  }
-  .main{
-    padding-top: 10px;
-    display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
-    grid-template-rows: 1fr 4fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-  }
-  .info {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr;
-    grid-column: 2 / 3;
-    grid-row: 1 ;
-    background-size: cover;
-    background-attachment: unset;
-    opacity: 1;
-    width: 100%;
-    min-width: 100px;
-    row-gap: 5px;
-  }
 
-  h1 {
-    text-align: center;
-    font-size: medium;
-  }
-  .projects{
-    grid-column: 2 / 3;
-    grid-row: 2 ;
-    margin: 1px;
-    padding: 1px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-grow: 2;
-    max-height: 80vh;
-  }
-  .element {
-    margin: 1px;
-    padding: 1px;
-  }
-  .name {
-    align-items: center;
-        font-family: 'Cinzel Decorative', cursive;
-    font-size: x-small;
-    /* justify-content: center; */
-    /* align-content: center; */
-    color: rgb(185, 185, 185);
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 20px;
-
-  }
-  .personal {
-    padding-top: 0px;
-
-  }
-  .links {
-    grid-column: 1 / 3;
-    grid-row: 2 ;
-    /* margin-top: 5px; */
-    /* margin-bottom: 5px; */
-    transition: 150ms;
-        font-family: 'Cinzel Decorative', cursive;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    min-height: min-content;
-  }
-  h3{
-    font-size:small;
-  }
-  a {
-    text-decoration: none;
-    color: rgb(185, 185, 185);
-    padding: 1px;
-    display: inline-flex;
-    justify-content: space-between;
-    font-size: medium;
-    text-align: left;
-  }
-  
-  .element {
-    transition: 150ms;
-        font-family: 'Cinzel Decorative', cursive;
-    justify-content: flex-start;
-    align-items: flex-start;
-    display: flex;
-    flex-flow: row nowrap;
-    font-size: xx-large;
-    flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-  }
-  .profile{
-  display: none;
-  }
-  .logo{
-    margin: 10px;
-    width: 5vh;
-    opacity: 0.8;
-    transition: 150ms;
-  }
-  .song{
-  display: block;
-      font-family: 'Cinzel Decorative', cursive;
-  font-size: small;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-}
-}
 .gif {
   visibility: hidden;
   position:fixed;
